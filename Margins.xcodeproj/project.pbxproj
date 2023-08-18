@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F08A85AD2A8EE36800642370 /* MarginsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85AC2A8EE36800642370 /* MarginsApp.swift */; };
+		F0208B572A8FC58300E18D5C /* MediaPlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B522A8FC58300E18D5C /* MediaPlayerDetailView.swift */; };
+		F0208B582A8FC58300E18D5C /* QuickLookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B532A8FC58300E18D5C /* QuickLookDetailView.swift */; };
+		F0208B592A8FC58300E18D5C /* MarginaliaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B542A8FC58300E18D5C /* MarginaliaView.swift */; };
+		F0208B5A2A8FC58300E18D5C /* WebDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B552A8FC58300E18D5C /* WebDetailView.swift */; };
+		F0208B5D2A8FC79A00E18D5C /* Marginalia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B5C2A8FC79A00E18D5C /* Marginalia.swift */; };
+		F0208B5F2A8FCBCC00E18D5C /* Timekeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0208B5E2A8FCBCC00E18D5C /* Timekeeper.swift */; };
+		F08A85AD2A8EE36800642370 /* Margins.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85AC2A8EE36800642370 /* Margins.swift */; };
 		F08A85AF2A8EE36800642370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85AE2A8EE36800642370 /* ContentView.swift */; };
 		F08A85B12A8EE36900642370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08A85B02A8EE36900642370 /* Assets.xcassets */; };
 		F08A85B42A8EE36900642370 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08A85B32A8EE36900642370 /* Preview Assets.xcassets */; };
 		F08A85BF2A8EE36900642370 /* MarginsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85BE2A8EE36900642370 /* MarginsTests.swift */; };
 		F08A85C92A8EE36900642370 /* MarginsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85C82A8EE36900642370 /* MarginsUITests.swift */; };
 		F08A85CB2A8EE36900642370 /* MarginsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85CA2A8EE36900642370 /* MarginsUITestsLaunchTests.swift */; };
+		F08A85D82A8EE3CB00642370 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F08A85D72A8EE3CB00642370 /* Info.plist */; };
+		F08A85DB2A8EEAC900642370 /* RichTextKit in Frameworks */ = {isa = PBXBuildFile; productRef = F08A85DA2A8EEAC900642370 /* RichTextKit */; };
+		F08A85DD2A8EF37900642370 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85DC2A8EF37900642370 /* DetailView.swift */; };
+		F08A85DF2A8EF44A00642370 /* MarginsDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A85DE2A8EF44A00642370 /* MarginsDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0208B522A8FC58300E18D5C /* MediaPlayerDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayerDetailView.swift; sourceTree = "<group>"; };
+		F0208B532A8FC58300E18D5C /* QuickLookDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookDetailView.swift; sourceTree = "<group>"; };
+		F0208B542A8FC58300E18D5C /* MarginaliaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginaliaView.swift; sourceTree = "<group>"; };
+		F0208B552A8FC58300E18D5C /* WebDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDetailView.swift; sourceTree = "<group>"; };
+		F0208B5C2A8FC79A00E18D5C /* Marginalia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marginalia.swift; sourceTree = "<group>"; };
+		F0208B5E2A8FCBCC00E18D5C /* Timekeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timekeeper.swift; sourceTree = "<group>"; };
 		F08A85A92A8EE36800642370 /* Margins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Margins.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F08A85AC2A8EE36800642370 /* MarginsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginsApp.swift; sourceTree = "<group>"; };
+		F08A85AC2A8EE36800642370 /* Margins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Margins.swift; sourceTree = "<group>"; };
 		F08A85AE2A8EE36800642370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F08A85B02A8EE36900642370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F08A85B32A8EE36900642370 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +61,9 @@
 		F08A85C42A8EE36900642370 /* MarginsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarginsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08A85C82A8EE36900642370 /* MarginsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginsUITests.swift; sourceTree = "<group>"; };
 		F08A85CA2A8EE36900642370 /* MarginsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F08A85D72A8EE3CB00642370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08A85DC2A8EF37900642370 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F08A85DE2A8EF44A00642370 /* MarginsDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginsDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08A85DB2A8EEAC900642370 /* RichTextKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0208B4E2A8FC50100E18D5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F08A85AE2A8EE36800642370 /* ContentView.swift */,
+				F0208B502A8FC56800E18D5C /* Detail */,
+				F0208B542A8FC58300E18D5C /* MarginaliaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0208B4F2A8FC52100E18D5C /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F08A85DE2A8EF44A00642370 /* MarginsDocument.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F0208B502A8FC56800E18D5C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F08A85DC2A8EF37900642370 /* DetailView.swift */,
+				F0208B522A8FC58300E18D5C /* MediaPlayerDetailView.swift */,
+				F0208B532A8FC58300E18D5C /* QuickLookDetailView.swift */,
+				F0208B552A8FC58300E18D5C /* WebDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F0208B5B2A8FC78900E18D5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0208B5C2A8FC79A00E18D5C /* Marginalia.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F08A85A02A8EE36800642370 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +152,12 @@
 		F08A85AB2A8EE36800642370 /* Margins */ = {
 			isa = PBXGroup;
 			children = (
-				F08A85AC2A8EE36800642370 /* MarginsApp.swift */,
-				F08A85AE2A8EE36800642370 /* ContentView.swift */,
+				F08A85AC2A8EE36800642370 /* Margins.swift */,
+				F08A85D72A8EE3CB00642370 /* Info.plist */,
+				F0208B5E2A8FCBCC00E18D5C /* Timekeeper.swift */,
+				F0208B5B2A8FC78900E18D5C /* Extensions */,
+				F0208B4F2A8FC52100E18D5C /* Types */,
+				F0208B4E2A8FC50100E18D5C /* Views */,
 				F08A85B02A8EE36900642370 /* Assets.xcassets */,
 				F08A85B52A8EE36900642370 /* Margins.entitlements */,
 				F08A85B22A8EE36900642370 /* Preview Content */,
@@ -145,6 +206,9 @@
 			dependencies = (
 			);
 			name = Margins;
+			packageProductDependencies = (
+				F08A85DA2A8EEAC900642370 /* RichTextKit */,
+			);
 			productName = Margins;
 			productReference = F08A85A92A8EE36800642370 /* Margins.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +281,9 @@
 				Base,
 			);
 			mainGroup = F08A85A02A8EE36800642370;
+			packageReferences = (
+				F08A85D92A8EEAC900642370 /* XCRemoteSwiftPackageReference "RichTextKit" */,
+			);
 			productRefGroup = F08A85AA2A8EE36800642370 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +302,7 @@
 			files = (
 				F08A85B42A8EE36900642370 /* Preview Assets.xcassets in Resources */,
 				F08A85B12A8EE36900642370 /* Assets.xcassets in Resources */,
+				F08A85D82A8EE3CB00642370 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08A85DD2A8EF37900642370 /* DetailView.swift in Sources */,
+				F0208B5D2A8FC79A00E18D5C /* Marginalia.swift in Sources */,
+				F0208B5F2A8FCBCC00E18D5C /* Timekeeper.swift in Sources */,
+				F08A85DF2A8EF44A00642370 /* MarginsDocument.swift in Sources */,
+				F0208B582A8FC58300E18D5C /* QuickLookDetailView.swift in Sources */,
 				F08A85AF2A8EE36800642370 /* ContentView.swift in Sources */,
-				F08A85AD2A8EE36800642370 /* MarginsApp.swift in Sources */,
+				F0208B572A8FC58300E18D5C /* MediaPlayerDetailView.swift in Sources */,
+				F0208B5A2A8FC58300E18D5C /* WebDetailView.swift in Sources */,
+				F08A85AD2A8EE36800642370 /* Margins.swift in Sources */,
+				F0208B592A8FC58300E18D5C /* MarginaliaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,14 +492,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Margins/Margins.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Margins/Preview Content\"";
 				DEVELOPMENT_TEAM = R2MP6EU7T3;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Margins/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Margins;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,14 +523,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Margins/Margins.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Margins/Preview Content\"";
 				DEVELOPMENT_TEAM = R2MP6EU7T3;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Margins/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Margins;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -576,6 +660,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F08A85D92A8EEAC900642370 /* XCRemoteSwiftPackageReference "RichTextKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/RichTextKit/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F08A85DA2A8EEAC900642370 /* RichTextKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F08A85D92A8EEAC900642370 /* XCRemoteSwiftPackageReference "RichTextKit" */;
+			productName = RichTextKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F08A85A12A8EE36800642370 /* Project object */;
 }
